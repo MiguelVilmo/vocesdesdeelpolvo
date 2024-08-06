@@ -1,0 +1,37 @@
+@media screen and (max-width:480px){
+	body {
+		font-size:80%; /* achicamos la fuente en pantallas pequenas */
+	} 
+} 
+
+/* Diseo para celulares */
+#columna1, #columna2, #columna3 {
+	float:none;
+	width:100%;
+}
+
+/* Diseo para tabletas */ 
+@media screen and (min-width: 800px) {
+	#columna1, #columna2 {
+		float:left;
+		width:50%;
+	}
+}
+
+/* Diseo para PC */ 
+@media screen and (min-width: 1025px) {
+	#columna1, #columna2, #columna3 {
+	float:left;
+	width:33%;
+    }
+} 
+
+@media screen and (max-width: 480px) {
+h1 {
+    font-size: 25px;
+    }
+     
+    h2 {
+    font-size: 22px;
+      }       
+    }
